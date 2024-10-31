@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
         pontuacaoDisplay.textContent = pontuacao;
         botaoIniciar.disabled = true;
 
-        intervaloFantasma = setInterval(criarFantasma, 800);
+        intervaloFantasma = setInterval(criarFantasma, 2400);
 
         // Tempo de jogo (30 segundos)
         setTimeout(() => {
